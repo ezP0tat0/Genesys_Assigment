@@ -1,0 +1,51 @@
+
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+thead
+{
+    background-color: orange;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+tbody
+{
+    color: azure;
+}
+tbody tr:nth-child(odd)
+{
+    background-color: rgb(53, 53, 53);
+}
+tbody tr:nth-child(even)
+{
+    background-color: rgb(24, 24, 24);
+}
+.center
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+a
+{
+    text-decoration: none;
+    color: azure;
+}
+.avatar
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 4px;
+    margin-top: 4%;
+}
+
+input
+{
+    width: 30%;
+    height: 1%;
+    font-size: large;
+    margin: 2%;
+}
